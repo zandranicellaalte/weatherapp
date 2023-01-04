@@ -1,38 +1,87 @@
+/* 
+#fafafa 
+#6a6f9a 
+#434766 
+#2e324e
+#eeb482 
+*/
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    background-image: url("../Image/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2e324e;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #2e324e;
+    position: absolute;
+    min-height: 100vh;
+    min-width: 40%;
+    align-items: left;
+    font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
+.App-nav {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fafafa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-nav p {
+    padding-right: 10px;
+}
+
+.App-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    color: #fafafa;
+}
+
+.search {
+    background-color: #434766;
+    padding: 0 10px;
+}
+
+.fa-search {
+    color: #eeb482;
+}
+
+.App-footer {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: #6a6f9a;
+}
+
+.App-Input {
+    background-color: #434766;
+    width: 280px;
+    height: 30px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 15px;
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.App-Button {
+    background-color: #eeb482;
+    border: none;
+    margin-top: 5px;
+}
+
+.App-startside {
+    min-height: 100vh;
+    margin-left: 40%;
+    align-items: right;
 }
