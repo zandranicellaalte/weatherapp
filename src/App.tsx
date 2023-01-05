@@ -42,7 +42,9 @@ function App() {
                     <button className="App-Button">Submit</button>
                 </div>
                 <div className="App-footer">
-                    Latitude {all.latitude} and Longitude {all.longitude}
+                    <p>
+                        Latitude {all.latitude} and Longitude {all.longitude}
+                    </p>
                 </div>
             </header>
             <div className="App-startside">
