@@ -24,22 +24,23 @@ function App() {
             <header className="App-header">
                 <nav className="App-nav">
                     <p>About</p>
-                    <p>Contakt</p>
+                    <p>Contact</p>
                 </nav>
                 <div className="App-content">
                     <div>
                         <h1>Weather App</h1>
-                        <p>Undertext</p>
                     </div>
-                    <div className="search">
+                    <form className="search">
                         <i className="fa fa-search"></i>
                         <input
                             type="text"
+                            id="search"
                             className="App-Input"
-                            placeholder="Search"
+                            placeholder="Search . . ."
+                            autoComplete="off"
                         />
-                    </div>
-                    <button className="App-Button">Submit</button>
+                    </form>
+                    <button className="App-Button">Search</button>
                 </div>
                 <div className="App-footer">
                     <p>
@@ -48,7 +49,9 @@ function App() {
                 </div>
             </header>
             <div className="App-startside">
-                <div></div>
+                <div className="card">
+                    <p>CARD</p>
+                </div>
             </div>
         </div>
     );

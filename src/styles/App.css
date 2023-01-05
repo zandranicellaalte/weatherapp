@@ -50,6 +50,7 @@
 .search {
     background-color: #434766;
     padding: 0 10px;
+    border-radius: 10px;
 }
 
 .fa-search {
@@ -83,11 +84,33 @@
 .App-Button {
     background-color: #eeb482;
     border: none;
-    margin-top: 5px;
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    color: #2e324e;
 }
 
 .App-startside {
     min-height: 100vh;
     margin-left: 40%;
     align-items: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
