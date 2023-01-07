@@ -6,6 +6,11 @@
 #eeb482 
 */
 
+h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
 .App {
     background-image: url("../assets/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
     background-position: center;
@@ -18,9 +23,8 @@
     background-color: #2e324e;
     position: absolute;
     min-height: 100vh;
-    min-width: 40%;
+    width: 40%;
     align-items: left;
-    font-size: calc(10px + 2vmin);
 }
 
 .App-nav {
@@ -39,11 +43,11 @@
 
 .App-content {
     min-height: 100vh;
+    min-width: 340px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
     color: #fafafa;
 }
 
@@ -64,6 +68,7 @@
     transform: translate(-50%, -50%);
     color: #6a6f9a;
     width: 340px;
+    text-align: center;
 }
 
 .App-footer p {
@@ -79,6 +84,7 @@
     padding-left: 15px;
     color: #fafafa;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .App-Button {
@@ -107,10 +113,30 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.1px);
     -webkit-backdrop-filter: blur(2.1px);
-    width: 500px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.Rubrik {
+    color: #fafafa;
+    margin-top: 25px;
+    margin-left: 5%;
+    border-bottom: 1px solid #fafafa;
+    width: 75%;
+}
+
+.TodayDate {
+    color: #fafafa;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+.Date {
+    margin: 0;
+}
+
+.Time {
+    margin: 0;
+    text-align: right;
 }
